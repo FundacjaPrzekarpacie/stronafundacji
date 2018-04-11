@@ -103,13 +103,20 @@
             <form class="pure-form pure-form-stacked">
               <fieldset> <form name="Kontakt" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
      <div><label for="name">Imię i nazwisko</label></div>
-     <div><input type="text" name="name" id="name" class="formField" /></div>
-     <div><label for="email">Adres email</label></div>
-     <div><input type="text" name="email" id="email" class="formField" /></div>
-     <div><label for="text">Treść wiadomości</label></div>
-     <div><textarea name="message" id="message" class="formField"></textarea></div>
-     <div><button type="submit">Wyślij</button></div>
-</form> 
+     <div><p>
+    <label>Imię i nazwisko: <input type="text" name="name"></label>   
+  </p>
+  <p>
+    <label>Email: <input type="email" name="email"></label>
+  </p>
+  <p>
+    <label>Tręść: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Wyślij</button>
+  </p>
+</form>
+ 
 
          </fieldset>
             </form>
