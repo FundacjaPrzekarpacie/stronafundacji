@@ -101,19 +101,16 @@
         <div class="pure-g">
           <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
             <form class="pure-form pure-form-stacked">
-              <fieldset> <form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you"  netlify>
-     <div><p>
-    <label>Imię i nazwisko: <input type="text" name="name"></label>   
+              <form name="contact" method="POST" action="thank-you" netlify>
+  <p>
+    <label>Email: <input type="text" name="name"></label>
   </p>
   <p>
-    <label>Email: <input type="email" name="email"></label>
+    <label>Message: <textarea name="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha></div>
   <p>
-    <label>Treść: <textarea name="message"></textarea></label>
-  </p>
-  
-  <p>
-    <button type="submit">Wyślij</button>
+    <button type=”submit”>Send</button>
   </p>
 </form>
  
