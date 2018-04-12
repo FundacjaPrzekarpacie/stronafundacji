@@ -102,18 +102,18 @@
           <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
             <form class="pure-form pure-form-stacked">
    
-<form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
-  <p class="hidden">
-    <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+<form name="contact" method="POST" netlify>
+  <p>
+    <label>Imię i Nazwisko: <input type="text" name="name"></label>   
   </p>
   <p>
-    <label>Email: <input type="text" name="name"></label>
+    <label>Email: <input type="email" name="email"></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Treść: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <button type=”submit”>Send</button>
+    <button type="submit">Wyślij</button>
   </p>
 </form>
          </fieldset>
